@@ -1,5 +1,8 @@
 # Blog
 
+div#main{
+ margin-left: 180px;
+}
 body {
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -7,35 +10,101 @@ body {
 }
 #header {
 
-    color: #00bfff ;
-     margin-top: 100px;
+    color: 	#8A2BE2 ;
+     margin-top: 60px;
     margin-left: 180px;
     font-size: 50px;
     }
-div {
-    margin-left: 180px;
-    margin-right: 800px;
 
-<button type="button" onclick="twitter.com/BManglam">Click Me!</button>
-   }
 img#transparent {
-            opacity: 0.6;
-            -webkit-transition: opacity 1s;
+            opacity: 0.1;
+            -webkit-transition: opacity 2s;
             -moz-transition: opacity 1s;
             transition: opacity 1s;
-
+-webkit-filter: grayscale(80%); filter: grayscale(80%);
     margin-left: 180px;
     border-style: outset;
-    margin-top: 25px;
+    margin-top: 20px;
     opacity: 0.7;
 }
-img#transparent:hover{opacity: 1;}
-#post1{
+img#transparent:hover{opacity: 01; -webkit-filter: contrast(160%); filter: contrast(130%);}
 
+#post01{
+background-color:transparent; color:green; padding:10px; margin-top: 20px; margin-left: 170px; margin-right: 800px; width:306px; height: 400px
 }
-#image1{
-margin-left: -10px;
-margin-top: -10px;
-border-color: #000000;
+#post01:hover{background-color: #ff9999;}
+#text_post01:link {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
 }
+#text_post01:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post01:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post01:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+#post02{
+background-color:transparent; opacity: 1; color:green; padding:10px; margin-top: -420px; margin-left: 500px; margin-right: 800px; width:306px; height: 400px
+}
+#post02:hover{background-color: #a6f2a6;}
+#text_post02:link {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post02:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post02:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post02:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+#post03{
+background-color:transparent; opacity: 1; color:green; padding:10px; margin-top: -420px; margin-left: 830px; margin-right: 800px; width:306px; height: 400px
+}
+#post03:hover{background-color: #ffff99;}
+#text_post03:link {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post03:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post03:hover {
+    color: #b3b300;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post03:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
 
