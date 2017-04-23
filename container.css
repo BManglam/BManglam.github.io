@@ -1,0 +1,48 @@
+body {
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-image: url("http://www.mediumandmessagethemes.com/wp-content/uploads/layerslider/LayerSlider-5-responsive-demo-slider-copy-copy-copy-copy-copy/concrete-background.jpg"); width="980";
+}
+
+#header {
+    color: 	#8A2BE2 ;
+     margin-top: -50px;
+    margin-left: -0px;
+    font-size: 60px;
+    }
+
+@media (min-width: 120px) {
+    .jumbotron{
+        max-width: 1000px;
+        background-color: tansparent;
+        align: center;
+        margin-left: 160px;
+    }
+    .container{
+        max-width: 1000px;
+        }
+
+}
+
+img#transparent {
+            height: 600px;
+            width: 1500px;
+            margin-left: -0px;
+            border-style: outset;
+            opacity: 0.7;
+            border-style: outset;
+            -webkit-transition: opacity 2s;
+            -moz-transition: opacity 3s;
+            transition: opacity 3s;
+-webkit-filter: grayscale(50%); filter: grayscale(50%);
+    margin-top: 20px;
+    opacity: 0.7;
+}
+img#transparent:hover {
+opacity: 01;
+border-style: outset;
+-webkit-filter: contrast(160%);
+filter: contrast(130%);
+}
+
+
