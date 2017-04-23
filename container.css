@@ -14,7 +14,7 @@ body {
 @media (min-width: 120px) {
     .jumbotron{
         max-width: 1000px;
-        background-color: ransparent;
+        background-color: transparent;
         align: center;
         margin-left: 160px;
     }
