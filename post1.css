@@ -1,0 +1,201 @@
+body {
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-image: url("http://www.mediumandmessagethemes.com/wp-content/uploads/layerslider/LayerSlider-5-responsive-demo-slider-copy-copy-copy-copy-copy/concrete-background.jpg"); width="980";
+}
+
+#header {
+    color: 	#8A2BE2 ;
+     margin-top: -50px;
+    margin-left: -0px;
+    font-size: 60px;
+    }
+
+@media (min-width: 120px) {
+    .jumbotron{
+        max-width: 1000px;
+        background-color: transparent;
+        align: center;
+        margin-left: 160px;
+    }
+    .container{
+        max-width: 1000px;
+        }
+
+}
+
+img#transparent {
+            height: 600px;
+            margin-left: -0px;
+            border-style: outset;
+            opacity: 0.7;
+            border-style: outset;
+            -webkit-transition: opacity 2s;
+            -moz-transition: opacity 3s;
+            transition: opacity 3s;
+-webkit-filter: grayscale(50%); filter: grayscale(50%);
+    margin-top: 20px;
+    opacity: 0.7;
+}
+img#transparent:hover {
+opacity: 01;
+border-style: outset;
+-webkit-filter: contrast(160%);
+filter: contrast(130%);
+}
+
+.button:link {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+.button:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.button:hover {
+    color: white;
+    background-color: #0040ff;
+    text-decoration: none;
+}
+.button {
+    background-color: #8080ff ;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#button:hover {
+    color: red;
+    background-color: red;
+    text-decoration: none;
+}
+
+
+#post01{
+background-color:transparent;
+ border-radius: 5px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); color:green; padding:10px; margin-top: 20px; margin-left: 0px; margin-right: 800px; width:640px; height: 1440px
+}
+#text_post01:link {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post01:visited {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post01:hover {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post01:active {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#image01:visited {
+  text-align: center;
+  color: transparent;
+}
+#image01:hover {
+margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
+
+#post03{
+background-color:transparent;
+ border-radius: 5px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); color:green; padding:10px; margin-top: -1440px; margin-left: 662px; margin-right: 800px; width:308px; height: 410px
+}
+#text_post03:link {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post03:visited {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post03:hover {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post03:active {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#image03:visited {
+  text-align: center;
+  color: transparent;
+}
+#image03:hover {
+margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
+
+
+#post04{
+background-color:transparent;
+ border-radius: 5px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); color:green; padding:10px; margin-top: 20px; margin-left: 662px; margin-right: 800px; width:308px; height: 410px
+}
+#text_post04:link {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post04:visited {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post04:hover {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#text_post04:active {
+    color: #8080ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+#image04:visited {
+  text-align: center;
+  color: transparent;
+}
+#image04:hover {
+margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
